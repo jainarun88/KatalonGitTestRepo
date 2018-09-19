@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>For Initail Test Case to write</description>
+   <name>Test_1_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc7bef85-f891-4cf0-abb3-d568df2aba62</testCaseGuid>
+</TestCaseEntity>

@@ -13,3 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://20.20.20.48/benefits/login')
+
+WebUI.setText(findTestObject('Object Repository/Page_TeemWurk/input_Please Wait_Username'), 'sysadmin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_TeemWurk/input_Please Wait_Password'), 'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('Object Repository/Page_TeemWurk/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/Page_TeemWurk/i_of_fa fa-angle-double-right'))
+
+WebUI.click(findTestObject('Object Repository/Page_TeemWurk/a_Login'))
+
+WebUI.click(findTestObject('Object Repository/Page_TeemWurk/i_'))
+
+WebUI.closeBrowser()
+
