@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test_Login_Suite,Chrome 68.0.3440.106,TW Login Suite,2018-09-19 12:00:21,2018-09-19 12:00:36,14.938s,PASSED
+,,,,,,
+Test Cases/Test_1_Login,Chrome 68.0.3440.106,For Initail Test Case to write,2018-09-19 12:00:21,2018-09-19 12:00:36,14.646s,PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-09-19 12:00:21,2018-09-19 12:00:32,10.662s,PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-09-19 12:00:32,2018-09-19 12:00:34,2.007s,PASSED
+setText,Chrome 68.0.3440.106,,2018-09-19 12:00:34,2018-09-19 12:00:35,0.541s,PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-09-19 12:00:35,2018-09-19 12:00:35,0.171s,PASSED
+click,Chrome 68.0.3440.106,,2018-09-19 12:00:35,2018-09-19 12:00:35,0.289s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-09-19 12:00:35,2018-09-19 12:00:36,0.695s,PASSED

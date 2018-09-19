@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_Login_Suite" time="7" tests="1" failures="0" errors="0">
+   <testsuite name="Test_Login_Suite" tests="1" failures="0" errors="0" time="7" timestamp="2018-09-19 12:05:07" hostname="akjain - A3-577.mshome.net" id="Test Suites/Test_Login_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\akjain.TEEMWURK\\git\\KatalonGitTestRepo\\Reports\\Test_Login_Suite\\20180919_120506"/>
+         <property name="logFiles" value="C:\\Users\\akjain.TEEMWURK\\git\\KatalonGitTestRepo\\Reports\\Test_Login_Suite\\20180919_120506\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="akjain - A3-577.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="172.20.22.49"/>
+         <property name="sessionId" value="6560a337ed07bf74adcafdddb5005522"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test_1_Login" classname="Test Cases/Test_1_Login" status="PASSED">
+         <system-out><![CDATA[2018-09-19 12:05:08 - [TEST_CASE][PASSED] - Test Cases/Test_1_Login: Test Cases/Test_1_Login
+
+2018-09-19 12:05:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-19 12:05:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-19 12:05:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://20.20.20.48/benefits/login' successfully
+
+2018-09-19 12:05:14 - [MESSAGE][PASSED] - Navigate to 'http://20.20.20.48/benefits/login' successfully
+
+2018-09-19 12:05:14 - [TEST_STEP][PASSED] - setText: Text 'sysadmin' is set on object 'Object Repository/Page_TeemWurk/input_Please Wait_Username'
+
+2018-09-19 12:05:14 - [MESSAGE][PASSED] - Text 'sysadmin' is set on object 'Object Repository/Page_TeemWurk/input_Please Wait_Username'
+
+2018-09-19 12:05:14 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_TeemWurk/input_Please Wait_Password'
+
+2018-09-19 12:05:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_TeemWurk/input_Please Wait_Password'
+
+2018-09-19 12:05:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_TeemWurk/button_Login' is clicked on
+
+2018-09-19 12:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TeemWurk/button_Login' is clicked on
+
+2018-09-19 12:05:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-19 12:05:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-19 12:05:07 - [TEST_SUITE][PASSED] - Test_Login_Suite: Test Cases/Test_1_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
